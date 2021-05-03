@@ -1,0 +1,13 @@
+C:\Users\HP\Documents\funda\TrabajoFinal\Entidades\bin\Debug\Entidades.dll
+C:\Users\HP\Documents\funda\TrabajoFinal\Entidades\bin\Debug\Entidades.pdb
+C:\Users\HP\Documents\funda\TrabajoFinal\Entidades\obj\Debug\Entidades.dll
+C:\Users\HP\Documents\funda\TrabajoFinal\Entidades\obj\Debug\Entidades.pdb
+C:\Users\SS\Downloads\FINAL\TrabajoFinal\Entidades\bin\Debug\Entidades.dll
+C:\Users\SS\Downloads\FINAL\TrabajoFinal\Entidades\bin\Debug\Entidades.pdb
+C:\Users\SS\Downloads\FINAL\TrabajoFinal\Entidades\obj\Debug\Entidades.dll
+C:\Users\SS\Downloads\FINAL\TrabajoFinal\Entidades\obj\Debug\Entidades.pdb
+C:\Users\SS\Desktop\funda_TF\TF_Funda(PAstel)\TrabajoFinal\TrabajoFinal\Entidades\bin\Debug\Entidades.dll
+C:\Users\SS\Desktop\funda_TF\TF_Funda(PAstel)\TrabajoFinal\TrabajoFinal\Entidades\bin\Debug\Entidades.pdb
+C:\Users\SS\Desktop\funda_TF\TF_Funda(PAstel)\TrabajoFinal\TrabajoFinal\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\SS\Desktop\funda_TF\TF_Funda(PAstel)\TrabajoFinal\TrabajoFinal\Entidades\obj\Debug\Entidades.dll
+C:\Users\SS\Desktop\funda_TF\TF_Funda(PAstel)\TrabajoFinal\TrabajoFinal\Entidades\obj\Debug\Entidades.pdb

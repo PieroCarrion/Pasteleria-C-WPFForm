@@ -1,0 +1,23 @@
+﻿<Window x:Class="Presentacion.Producto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentacion"
+        mc:Ignorable="d"
+        Title="Producto" Height="333.189" Width="311.713">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="99,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="98,57,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox_SelectionChanged"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="99,18,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox1_SelectionChanged"/>
+        <Label x:Name="label" Content="Empresa" HorizontalAlignment="Left" Margin="35,14,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Plato" HorizontalAlignment="Left" Margin="48,54,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Cantidad" HorizontalAlignment="Left" Margin="33,90,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Registro" HorizontalAlignment="Left" Margin="21,136,0,0" VerticalAlignment="Top" Width="75" Click="button_Click_1"/>
+        <Button x:Name="button1" Content=" Modificar" HorizontalAlignment="Left" Margin="115,136,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button2" Content=" Eliminar" HorizontalAlignment="Left" Margin="203,137,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click_1"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="21,168,0,0" VerticalAlignment="Top" Height="93" Width="269" SelectionChanged="dataGrid_SelectionChanged_1"/>
+        <Button x:Name="button3" Content="Salir" HorizontalAlignment="Left" Margin="218,270,0,0" VerticalAlignment="Top" Width="75" Click="button3_Click"/>
+
+    </Grid>
+</Window>

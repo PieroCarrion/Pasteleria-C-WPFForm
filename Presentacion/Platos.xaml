@@ -1,0 +1,38 @@
+﻿<Window x:Class="Presentacion.Platos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentacion"
+        mc:Ignorable="d"
+        Title="Platos" Height="349.667" Width="318.333">
+    <Grid Margin="0,0,2,8">
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="9,2,0,0" VerticalAlignment="Top" Height="8" Width="8"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="22,57,0,0" VerticalAlignment="Top" Height="33" Width="70"/>
+        <Label x:Name="label2" Content="Precio" HorizontalAlignment="Left" Margin="31,98,0,0" VerticalAlignment="Top" Height="33" Width="61"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="22,147,0,0" VerticalAlignment="Top" Height="137" Width="265" SelectionChanged="dataGrid_SelectionChanged"/>
+        <Button x:Name="button" Content="Modificar" HorizontalAlignment="Left" Margin="227,57,0,0" VerticalAlignment="Top" Width="55" Height="22" Click="button_Click"/>
+        <Button x:Name="button1" Content="Registrar" HorizontalAlignment="Left" Margin="227,15,0,0" VerticalAlignment="Top" Width="55" Height="23" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Eliminar" HorizontalAlignment="Left" Margin="227,98,0,0" VerticalAlignment="Top" Width="55" Height="18" Click="button2_Click"/>
+        <Label x:Name="label1_Copy" Content="Plato" HorizontalAlignment="Left" Margin="35,16,0,0" VerticalAlignment="Top" Height="36" Width="57"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="19" Margin="84,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="21" Margin="84,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="84,16,0,0" VerticalAlignment="Top" Width="120" />
+        <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118"/>
+        <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118"/>
+        <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118"/>
+        <ComboBoxItem Content="" HorizontalAlignment="Left" Width="4" Margin="-4,0,0,0" RenderTransformOrigin="0.5,0.5">
+            <ComboBoxItem.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBoxItem.RenderTransform>
+        </ComboBoxItem>
+        <Button x:Name="button3" Content="Salir" HorizontalAlignment="Left" Margin="112,289,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>
